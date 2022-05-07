@@ -1,6 +1,9 @@
+html {
+    background-color: darkgray;
+}
 
 header {
-    height: 200px;
+    height: 10rem;
     width: 99%;
     display: inline-flex;
     justify-content: space-between;
@@ -26,7 +29,7 @@ header ul {
 
 header li {
     display: inline-flex;
-    font-size: 30px;
+    font-size: 1.5rem;
     padding: 15px;
     position: relative;
     align-items: center;
@@ -45,7 +48,7 @@ header p {
 }
 
 body .home {
-    margin-top: 250px;
+    margin-top: 200px;
     position: relative;
     display: inline-flex;
     justify-content: space-around;
@@ -82,4 +85,28 @@ body .home {
     width: 40%;
     text-align: center;
     padding: 20px;
+}
+
+.projects h2 {
+    text-align: center;
+}
+
+.projects-container {
+    border: 3px solid black;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills-container {
+    display: inline-flex;
+}
+
+.skills-container i {
+    font-size: 3rem;
+}
+
+footer {
+    display: inline-flex;
 }

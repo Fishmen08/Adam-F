@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <script src="https://kit.fontawesome.com/2042354e64.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div>
+        <h1>Contact Me</h1>
+        <h2>Have an project or job offer? I would love to hear about it!</h2>
+        <p><i class="fa-regular fa-envelope"></i>  adam_phoz18@hotmail.com</p>
+        <p><i class="fa-brands fa-github"></i>  <a href="https://github.com/Fishmen08">view my gitHUB</a></p>
+    </div>
+    <form action="contact.html" method="post">
+        <h2>Contact Enquiries</h2>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+        <br><br>
+        <label for="phone">Phone:  </label>
+        <input type="number" name="phone" id="phone" required>
+        <br><br>
+        <label for="email">Email:  </label>
+        <input id="email" name="email" type="text" required>
+        <br><br>
+        <label for="other">How can I help?</label>
+        <br><br>
+        <textarea id="other" name="other" rows="5" cols="40"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>

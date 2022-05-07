@@ -6,22 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adam Fisher</title>
     <link href="index.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2042354e64.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <img src="resources/images/FBF logo.png">
         <div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
             <p>Dark</p><!--Light and dark theme button-->
         </div>
                 
     </header>
-    <div class="home">
+    <div class="home" id="home">
         <div>
         <h1>Hello,</h1>
         <h2>I am Adam,</h2>
@@ -33,7 +35,7 @@
         </div>
         
     </div>
-    <div class="about-me">
+    <div class="about-me" id="about">
         <h2>About me</h2>
         <div class="about">
             <div class="bio">  
@@ -48,10 +50,11 @@
             
         </div>
     </div>
-    <div class="projects">
+    <div class="projects" id="projects">
         <h2>Projects</h2>
         <div class="projects-container">
             <div>
+                <p>my first project</p>
                 <!--Add Project here-->
             </div>
             <div>
@@ -63,13 +66,39 @@
         </div>
     </div>
     
-    <div>
+    <div class="skills" id="skills"> 
         <h2>My Skills</h2>
-        <div>
+        <div class="skills-container">
+            <figure>
+                <i class="fa-brands fa-html5"></i>
+                <figcaption>HTML</figcaption>
+            </figure>
+            <figure>
+                <i class="fa-brands fa-css3-alt"></i>
+                <figcaption>CSS</figcaption>
+            </figure>
+            <figure>
+                <i class="fa-brands fa-js"></i>
+                <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure>
+                <i class="fa-brands fa-git"></i>
+                <figcaption>git</figcaption>
+            </figure>
+            <figure>
+                <i class="fa-brands fa-github"></i>
+                <figcaption>gitHUB</figcaption>
+            </figure>
+            
+            
+            
+            
             <!--Add skills here-->
         </div>
     </div>
     <footer>
+        
+        <h3>Adam Fisher <i class="fa-regular fa-copyright"></i> 2022</h3>
         <!--footer contact info and copyrights-->
     </footer>
 </body>
