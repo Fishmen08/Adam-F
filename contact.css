@@ -1,0 +1,48 @@
+html {
+    background-color: darkgray;
+}
+
+header {
+    height: 10rem;
+    width: 99%;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    border: 3px solid black;
+    position: fixed;
+    align-items: center;
+    z-index: 99;
+}
+
+header div {
+    
+    display: inline-flex;
+    align-items: center;
+    margin: 20px;
+}
+
+header ul {
+    margin-right: 2px;
+    
+    
+}
+
+header li {
+    display: inline-flex;
+    font-size: 1.5rem;
+    padding: 15px;
+    position: relative;
+    align-items: center;
+}
+
+header img {
+    max-height: 80%;
+    padding: 20px;
+}
+
+header p {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
