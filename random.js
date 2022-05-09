@@ -27,6 +27,9 @@ let mobile = document.getElementById('mobileButton');
 let mobileMenu = document.getElementById('mobileMenu');
 
 mobile.onclick = function () {
-    mobileMenu.style.display = flex;
-    words.innerHTML = 'new words'
-}
+    if (mobileMenu.style.display === 'none') {
+    mobileMenu.style.display = 'flex'} else {
+        mobileMenu.style.display = 'none'
+    }
+    
+};
