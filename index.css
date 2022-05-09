@@ -1,5 +1,6 @@
 html {
     background-color: darkgray;
+    width: 100%;
 }
 
 header {
@@ -182,5 +183,11 @@ footer i {
     }
     header .mobile {
         display: flex;
+    }
+    .skills-container {
+        display: inline-flex;
+        width: 80%;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
