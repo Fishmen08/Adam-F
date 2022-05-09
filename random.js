@@ -1,4 +1,4 @@
-randomPhrase = ['You are the champ', 'You will go far kid', 'I think greatly of you', 'Your wife is always right']
+randomPhrase = ['Intermittent fasting is good for longevity', 'Regular weight training will keep you strong into old age', 'Try and eat a decent amount of protein with each meal to increase satiety', 'In most cases the best way to improve overall health is to lose weight', 'Creating healthy habits that you can stick to will have the best long term results', 'Consistecy is the key to gaining any results with weight training and diet']
 
 
 
@@ -21,4 +21,12 @@ buttonTwo.onclick = function () {
     button.hidden = false;
     press.innerHTML = 'Try pressing the button below.';
     buttonTwo.hidden = true;
+}
+
+let mobile = document.getElementById('mobileButton');
+let mobileMenu = document.getElementById('mobileMenu');
+
+mobile.onclick = function () {
+    mobileMenu.style.display = flex;
+    words.innerHTML = 'new words'
 }

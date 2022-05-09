@@ -47,6 +47,27 @@ header p {
     margin: 10px;
 }
 
+header .mobile {
+    display: none;
+}
+
+header .mobile i {
+    font-size: 3rem;
+}
+
+header .mobile i:hover{
+    cursor: pointer;
+}
+
+header .mobile ul {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    z-index: 10;
+    text-align: center;
+    background-color: darkgray;
+}
+
 body .home {
     margin-top: 200px;
     position: relative;
@@ -64,6 +85,7 @@ body .home {
 
 .about-me {
     text-align: center;
+    width: 100%;
 }
 
 .about {
@@ -134,5 +156,31 @@ body .home {
 }
 
 footer {
-    display: inline-flex;
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer i {
+    font-size: 0.85rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about .bio {
+        width: 80%;
+    }
+    .about .java {
+        width: 80%;
+    }
+    header div {
+        display: none;
+    }
+    header .mobile {
+        display: flex;
+    }
 }
